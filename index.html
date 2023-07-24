@@ -21,8 +21,8 @@
 </style>
 
 </head>
-<body class="container mx-auto">
-    <header class="py-5">
+<body class="">
+    <header class="py-5 container mx-auto">
       <!-- navbar section -->
         <div>
             <div class="navbar bg-base-100">
@@ -57,7 +57,7 @@
         </div>
 
         <!-- banner section -->
-        <div class="my-12 rounded-lg">
+        <div class="my-12 rounded-lg ">
           <div class="hero min-h-screen bg-gradient-to-r from-gray-900 to-transparent" style="background-image: linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%); background-image: url(./images/banner.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -74,7 +74,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="container mx-auto">
       <!-- Law section -->
       <section class="text-center my-8 space-y-4">
         <h1 class="font-extrabold text-4xl">The Legal Practice Area</h1>
@@ -374,5 +374,49 @@
 </section>
 
     </main>
+
+    <!-- footer section -->
+    <footer class="footer justify-evenly p-10 bg-black text-[#CFCFCF]">
+      <div>
+        <figure><img class="footer-title" src="./images/logo2.png" alt=""></figure>
+        <p>There are many variations of  <br>passages of Lorem Ipsum <br>available, but the majority have <br>suffered alteration in some <br>form, by injected humour.</p>
+      </div> 
+      <div>
+        <span class=" text-white text-2xl font-extrabold">Useful Links</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div>
+        <span class=" text-white text-2xl font-extrabold">Contact Us</span> 
+        <a class="link link-hover">555 4th 5t NW, Washington <br>
+          DC 20530, United States</a> 
+        <a class="link link-hover">+88 01750 000 000 <br>+88 01750 000 000</a> 
+        <a class="link link-hover">info@gmail.com<br>
+          info@gmail.com</a>
+      </div> 
+      <div>
+        <span class=" text-white text-2xl font-extrabold">Subscribe</span> 
+        <div class="form-control w-80">
+          <label class="label">
+            <span class="">Subscribe for our latest &<br>Articles. We Won’t Give You<br>Spam Mails</span>
+          </label> 
+          <div class="relative">
+            <input type="text" placeholder="Email Address" class="input input-bordered  w-full pr-16" /> 
+            <button class="btn bg-legal text-white absolute top-0 right-0 rounded-lg border-none"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+              <g clip-path="url(#clip0_12_37)">
+                <path d="M12.7279 21.2427L4.52197 16.8989C10.4846 13.6228 16.9629 11.3888 23.6775 10.2931C22.5826 17.0078 20.3492 23.4863 17.0738 29.4494L12.7279 21.2427ZM12.7279 21.2427L18.0312 15.9394" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_12_37">
+                  <rect width="24" height="24" fill="white" transform="translate(0 17) rotate(-45)"/>
+                </clipPath>
+              </defs>
+            </svg></button>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
